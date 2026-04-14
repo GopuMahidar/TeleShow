@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+   <header style={{textAlign:'center',fontSize:50,backgroundColor:'lightseagreen'}}>TeleShow</header>
+ <div style={{backgroundColor:'palevioletred',fontSize:25}} >
+  Hii Welcome to Teleshow  
+  <p>this is very nice and custom platform created by tharakksss</p>
     </div>
+ </div>
   );
 }
 
